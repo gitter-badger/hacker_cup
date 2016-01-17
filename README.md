@@ -1,4 +1,6 @@
 # hacker_cup
+
+[![Join the chat at https://gitter.im/lukejpreston/hacker_cup](https://badges.gitter.im/lukejpreston/hacker_cup.svg)](https://gitter.im/lukejpreston/hacker_cup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 My solutions to some of the hacker cups
 
 They are done using Go 1.5.3

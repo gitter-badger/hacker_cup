@@ -1,0 +1,81 @@
+<div><div class="clearfix"><span class="lfloat _ohe fsxl fwb">High Security</span><span class="rfloat _ohf fsxl fwb">25 points</span></div><div id="u_jsonp_13_0"><!-- react-empty: 1 --></div><div id="u_jsonp_13_1"><div data-reactroot="" class="_3m1t _4-u2  _4-u8"><ul class="_3m1o uiList  _4ki _509- _6-i _6-h _6-j"><li><button class="_4jy0 _4jy3 _517h _51sy _42ft" type="submit" value="1"><i class="_3-8_ img sp_RGp1WljJ4as sx_7a52b2"></i><span>Download Input</span></button></li></ul><div class="_3m1s _4-u2  _4-u8"><div class="_3m1p"><div class="_m _6a"><a class="_4jy0 _4jy3 _517h _51sy _42ft" rel="ignore"><span>Choose Output</span><div class="_3jk"><input name="output" type="file" class="_n _5f0v" id="js_u"></div></a><span class="_3m1q">No output file selected</span></div></div><div><button disabled="" class="_4jy0 _4jy3 _4jy1 _51sy selected _42ft _42fr" type="submit" value="1"><span>Submit</span></button></div></div></div></div><div class="mvm uiP fsm"><p>
+A top-secret algorithmic research facility has decided to up its security by hiring guards to keep watch over the premises. 
+After all, they don't want anyone sneaking in and learning the answers to questions such as "does P = NP?" and 
+"what are the solutions to the 2016 Facebook Hacker Cup problems?".
+</p>
+
+<p>
+When viewed from above, the facility can be modeled as a grid <strong>G</strong> with 2 rows and <strong>N</strong> columns. 
+The <strong>j</strong>th cell in the <strong>i</strong>th row is either empty (represented by <strong>G<sub>i,j</sub></strong> = ".") 
+or occupied by a building (<strong>G<sub>i,j</sub></strong> = "X"), and the grid includes at least one empty cell.
+</p>
+
+<p>
+Guards may be potentially stationed in any of the empty cells. A guard can see not only their own cell, but also all contiguous empty cells in each of the 4 compass directions 
+(up, down, left, and right) until the edge of the grid or a building. For example, in the grid below, the guard ("G") can see every cell marked with an asterisk ("*"):
+</p>
+
+<pre>.*.X.X..
+*G*****X
+</pre>
+
+<p>
+What is the minimum number of guards required such that every empty cell in the grid can be seen by at least one of them?
+</p>
+
+
+<h3>Input</h3>
+<p>
+Input begins with an integer <strong>T</strong>, the number of facilities that need guarding.
+For each facility, there is first a line containing the integer <strong>N</strong>. The next line contains the grid cells
+<strong>G<sub>1,1</sub></strong> to <strong>G<sub>1,N</sub></strong> in order. The third line contains the grid cells
+<strong>G<sub>2,1</sub></strong> to <strong>G<sub>2,N</sub></strong> in order.
+</p>
+
+
+<h3>Output</h3>
+<p>
+For the <strong>i</strong>th facility, print a line containing "Case #<strong>i</strong>: " followed by
+the number of guards required to guard the facility.
+</p>
+
+
+<h3>Constraints</h3>
+<p>
+1 ≤ <strong>T</strong> ≤ 200 <br>
+1 ≤ <strong>N</strong> ≤ 1,000 <br>
+</p>
+
+
+
+<h3>Explanation of Sample</h3>
+<p>
+In the first case, one solution is to place three guards as follows:
+</p>
+
+<pre>.G.X.XG.
+....G..X
+</pre>
+
+</div><div><div class="clearfix"><div class="lfloat _ohe fsm fwn fcg"><span class="fsm">Example input</span><span role="presentation" aria-hidden="true"> · </span><a rel="ignore" href="/hackercup/example/?problem_id=1527664744192390&amp;type=input">Download</a></div><div class="rfloat _ohf fsm fwn fcg"><span class="fsm">Example output</span><span role="presentation" aria-hidden="true"> · </span><a rel="ignore" href="/hackercup/example/?problem_id=1527664744192390&amp;type=output">Download</a></div></div><div class="clearfix"><div class="pam _33b6 lfloat _ohe uiBoxGray"><pre class="_33b7">5
+8
+...X.X..
+.......X
+5
+.X.X.
+.XXX.
+7
+.....X.
+.X.....
+9
+..X.X.X..
+..X...X.X
+15
+.X..........X..
+.X...XX.X.X....
+</pre></div><div class="pam _33b6 rfloat _ohf uiBoxGray"><pre class="_33b7">Case #1: 3
+Case #2: 3
+Case #3: 2
+Case #4: 5
+Case #5: 6
+</pre></div></div></div></div>

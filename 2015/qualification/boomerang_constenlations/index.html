@@ -1,0 +1,78 @@
+<div><div class="clearfix"><span class="lfloat _ohe fsxl fwb">Boomerang Constellations</span><span class="rfloat _ohf fsxl fwb">10 points</span></div><div id="u_jsonp_14_0"><!-- react-empty: 1 --></div><div id="u_jsonp_14_1"><div data-reactroot="" class="_3m1t _4-u2  _4-u8"><ul class="_3m1o uiList  _4ki _509- _6-i _6-h _6-j"><li><button class="_4jy0 _4jy3 _517h _51sy _42ft" type="submit" value="1"><i class="_3-8_ img sp_RGp1WljJ4as sx_7a52b2"></i><span>Download Input</span></button></li></ul><div class="_3m1s _4-u2  _4-u8"><div class="_3m1p"><div class="_m _6a"><a class="_4jy0 _4jy3 _517h _51sy _42ft" rel="ignore"><span>Choose Output</span><div class="_3jk"><input name="output" type="file" class="_n _5f0v" id="js_v"></div></a><span class="_3m1q">No output file selected</span></div></div><div><button disabled="" class="_4jy0 _4jy3 _4jy1 _51sy selected _42ft _42fr" type="submit" value="1"><span>Submit</span></button></div></div></div></div><div class="mvm uiP fsm"><p>
+The night sky can be modeled as an infinite 2D plane. There are <strong>N</strong> stars at distinct positions on this plane, the <strong>i</strong>th of which is at coordinates 
+(<strong>X<sub>i</sub></strong>, <strong>Y<sub>i</sub></strong>).
+</p>
+
+<p>
+A boomerang constellation is a pair of distinct equal-length line segments which share a single endpoint, such that both endpoints of each segment coincide with a star's location.
+</p>
+
+<p>
+Two boomerang constellations are distinct if they're not made up of the same unordered pair of line segments. How many distinct boomerang constellations can you spot?
+</p>
+
+
+<h3>Input</h3>
+<p>
+Input begins with an integer <strong>T</strong>, the number of nights on which you look out at the sky.
+For each night, there is first a line containing the integer <strong>N</strong>. Then, <strong>N</strong>
+lines follow, the <strong>i</strong>th of which contains the space-separated integers 
+<strong>X<sub>i</sub></strong> and <strong>Y<sub>i</sub></strong>.
+</p>
+
+
+<h3>Output</h3>
+<p>
+For the <strong>i</strong>th night, print a line containing "Case #<strong>i</strong>: " followed by
+the number of boomerang constellations in the night sky.
+</p>
+
+
+<h3>Constraints</h3>
+<p>
+1 ≤ <strong>T</strong> ≤ 50 <br>
+1 ≤ <strong>N</strong> ≤ 2,000 <br>
+-10,000 ≤ <strong>X<sub>i</sub></strong>, <strong>Y<sub>i</sub></strong> ≤ 10,000 <br>
+</p>
+
+
+
+<h3>Explanation of Sample</h3>
+<p>
+On the first night, every pair of stars is a unique distance apart, so there are no boomerang constellations. On the second night, there are 4 boomerang constellations. One of them consists of the line segments (0,0)-(0,2) and (0,2)-(0,4).
+</p>
+
+</div><div><div class="clearfix"><div class="lfloat _ohe fsm fwn fcg"><span class="fsm">Example input</span><span role="presentation" aria-hidden="true"> · </span><a rel="ignore" href="/hackercup/example/?problem_id=910374079035613&amp;type=input">Download</a></div><div class="rfloat _ohf fsm fwn fcg"><span class="fsm">Example output</span><span role="presentation" aria-hidden="true"> · </span><a rel="ignore" href="/hackercup/example/?problem_id=910374079035613&amp;type=output">Download</a></div></div><div class="clearfix"><div class="pam _33b6 lfloat _ohe uiBoxGray"><pre class="_33b7">5
+3
+0 0
+0 1
+0 3
+5
+0 0
+0 1
+0 2
+0 3
+0 4
+4
+0 0
+0 100
+100 0
+100 100
+4
+0 0
+-3 4
+0 5
+-5 0
+6
+5 6
+6 5
+7 6
+6 7
+7 8
+8 7
+</pre></div><div class="pam _33b6 rfloat _ohf uiBoxGray"><pre class="_33b7">Case #1: 0
+Case #2: 4
+Case #3: 4
+Case #4: 3
+Case #5: 12
+</pre></div></div></div></div>

@@ -1,2 +1,2 @@
-alias hrun='echo something'
-alias htest='echo something'
+alias hrun='/Users/prestl02/Projects/hacker_cup/run.sh'
+alias htest='/Users/prestl02/Projects/hacker_cup/run.sh test'
